@@ -58,27 +58,3 @@ const typed = new Typed('.multiple-text', {
     backDelay: 500,
     loop: true
 });
-
-var btn = document.getElementById('btn');
-btn.addEventListener('click', function(e) {
-    e.preventDefault()
-    var name = document.getElementById('name1').value;
-    var email = document.getElementById('email1').value;
-    var phone = document.getElementById('phone1').value;
-    var subject = document.getElementById('subject1').value;
-    var message = document.getElementById('message1').value;
-    var body = 'name1: ' + name + '<br/> email1' + email + '<br/> phone1' + phone + '<br/> subject1' + subject + '<br/> message1' + message;
-
-    Email.send({
-        Host : "smtp.gmail.com",
-        Username : "micahothino44@gmail.com",
-        Password : "gecdhiwbjeatrnqm",
-        To : 'micahothino44@gmail.com',
-        From : email,
-        Phone : phone,
-        Subject : subject,
-        Body : message
-    }).then(
-      message => alert(message)
-    );
-})
