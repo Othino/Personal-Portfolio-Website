@@ -58,3 +58,17 @@ const typed = new Typed('.multiple-text', {
     backDelay: 500,
     loop: true
 });
+
+function sendEmail() {
+    Email.send({
+        Host : "smtp.gmail.com",
+        Username : "micahothino44@gmail.com",
+        Password : "gecdhiwbjeatrnqm",
+        To : 'micahothino44@gmail.com',
+        From : document.getElementById("name").value,
+        Subject : "This is the subject",
+        Body : "And this is the body"
+    }).then(
+      message => alert(message)
+    );
+}
