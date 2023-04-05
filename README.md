@@ -43,7 +43,9 @@ To run this project locally, you can clone the repository and run it on your loc
 
 ```
 https://github.com/Othino/Personal-Portfolio-Website.git
+
 cd Personal-Portfolio-Website
+
 open index.html
 ```
 
@@ -61,4 +63,4 @@ This project is licensed under the MIT license.
 
 ### Screenshots:
 
-Screenshot of Homepage
+![Landing Page](images/landing%20page.png)
