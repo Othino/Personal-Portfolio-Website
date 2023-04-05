@@ -61,6 +61,6 @@ If you would like to contribute to this project, please open a pull request on t
 
 This project is licensed under the MIT license.
 
-### Screenshots:
+### Website Preview:
 
 ![Landing Page](images/landing%20page.png)
