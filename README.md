@@ -33,7 +33,7 @@ Deployment: i). Netlify
 
 To see the website, please visit the deployed site:
 
-www.micahothino.netlify.app
+https://micahothino.netlify.app
 
 This website was created by `MICAH OTHINO`.
 
